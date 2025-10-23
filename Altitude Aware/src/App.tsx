@@ -65,7 +65,7 @@ function App() {
     <>
       <header className="flex justify-center items-center h-20 shadow-md bg-white">
         <a href="#">
-          <img className="w-40" src={logo} alt="" />
+          <img className="w-40" src={logo} alt="Logo" />
         </a>
       </header>
       <main className="flex flex-col items-center justify-center">
@@ -87,7 +87,7 @@ function App() {
           <div>
             <h1 className="text-4xl text-center font-bold mb-4">Hi!</h1>
             <p className="text-lg text-center text-gray-700 mb-8">
-              This is a simple app to check your altitude and inform you about{" "}
+              This is an app to check your altitude and inform you about{" "}
               <br /> the physical conditions that your body may experience.
             </p>
           </div>
